@@ -1,0 +1,26 @@
+* {
+  background-color: white;
+}
+/* Styling for Navigation Bar */
+
+/*End of navigation styling*/
+/*Body section styling*/
+.content {
+  background-color: aliceblue;
+  margin: 5%;
+  padding: 5%;
+  border-radius: 1rem;
+  border-left: 5px solid;
+}
+.background {
+  background-color: aliceblue;
+}
+.content img {
+  width: 40%;
+}
+marquee {
+  border-top: 2px solid gold;
+  border-left: 3px solid gold;
+  border-right: 3px solid gold;
+  border-radius: 0.5rem;
+}
