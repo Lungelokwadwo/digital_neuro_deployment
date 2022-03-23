@@ -1,0 +1,17 @@
+.chatWithUs {
+  margin: 2%;
+}
+.C-img {
+  width: 20%;
+  border-radius: 5rem;
+}
+.split {
+  margin: 1%;
+  text-decoration: none;
+}
+.combined_content {
+  border-radius: 1px solid gray;
+}
+.underline {
+  text-decoration: underline;
+}

@@ -48,7 +48,6 @@ const News3={
 }
 
 const Content=(props)=>{
-  console.log(props)
   return(
     <section className='content'>
     <h4 className='background'>{props.heading}</h4>

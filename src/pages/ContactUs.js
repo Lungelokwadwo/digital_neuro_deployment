@@ -3,7 +3,7 @@ import './ContactUs.css';
 
 const ContactUs = () => {
   return (
-    <div>ContactUs Lungelo Number 0606888581</div>
+    <div>Contact Us</div>
   )
 }
 

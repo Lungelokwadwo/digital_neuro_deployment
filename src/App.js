@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Profile from "./pages/Profile"
+import ChatWithUs from './pages/ChatWithUs';
 import ErrorPage from './pages/ErrorPage';
 import Figurehead from './pages/Figurehead';
 import PatientEducation from './pages/PatientEducation';
@@ -19,7 +20,7 @@ function App() {
               <Link to="/" className='links'>Home</Link>
               <Link to="/about" className='links'>About</Link>
               <Link to="/profile" className='links'>Profile</Link>
-              <Link to="/profile" className='links'>Chat With Us</Link>
+              <Link to="/chatwithus" className='links'>Chat With Us</Link>
             </nav>
             <span id='more-links'>
               <Link to="/figurehead" className='more-items'>Figurehead</Link>
@@ -33,6 +34,7 @@ function App() {
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
               <Route path='/profile' element={<Profile />}/>
+              <Route path='/chatwithus' element={<ChatWithUs />}/>
               <Route path='/figurehead' element={<Figurehead />} />
               <Route path='/patienteducation' element={<PatientEducation />} />
               <Route path='/aboutthebusiness' element={<AboutTheBusiness />} />
