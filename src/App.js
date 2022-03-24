@@ -8,7 +8,6 @@ import ErrorPage from './pages/ErrorPage';
 import Figurehead from './pages/Figurehead';
 import PatientEducation from './pages/PatientEducation';
 import AboutTheBusiness from './pages/AboutTheBusiness';
-import ContactUs from './pages/ContactUs';
 import GetTherapist from './pages/GetTherapist';
 import GetNeurologist from './pages/GetNeurologist';
 
@@ -28,7 +27,6 @@ function App() {
               <Link to="/aboutthebusiness" className='more-items'>About The Business</Link>
               <Link to="/therapist" className='more-items'>Therapist</Link>
               <Link to="/neurologist" className='more-items'>Neurologist</Link>
-              <Link to="/contactus" className='more-items'>Contact Us</Link>
             </span>
             <Routes>
               <Route path='/' element={<Home />} />
@@ -38,7 +36,6 @@ function App() {
               <Route path='/figurehead' element={<Figurehead />} />
               <Route path='/patienteducation' element={<PatientEducation />} />
               <Route path='/aboutthebusiness' element={<AboutTheBusiness />} />
-              <Route path='/contactus' element={<ContactUs />} />
               <Route path='/therapist' element={<GetTherapist />} />
               <Route path='/neurologist' element={<GetNeurologist />} />
               <Route path="*" element={ <ErrorPage/> }/>
