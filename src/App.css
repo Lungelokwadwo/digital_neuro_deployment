@@ -14,6 +14,12 @@
   border-radius: 0.5rem;
   width: 100%;
 }
+.brand_title {
+  font-size: 1.5rem;
+}
+.small_links {
+  font-size: 1.1rem;
+}
 .more {
   border: 1px solid aliceblue;
   padding: 0% 3%;
