@@ -42,7 +42,7 @@ nav {
 .more-items {
   margin: 3px;
   padding: 2px;
-  border-right: 2px solid gold;
+  border-right: 2px solid rgb(167, 191, 211);
   border-radius: 0.5rem;
   text-decoration: none;
   color: silver;

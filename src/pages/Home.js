@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+// Home function is used as the component that display what is inside of DigitalNeuroApp function.
 const Home = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const Home = () => {
     </>
   )
 }
+// DigitalNeuroApp returns data from news list
 function DigitalNeuroApp(){
   return (
     <section>
@@ -16,15 +18,19 @@ function DigitalNeuroApp(){
     </section>
   )
 }
+// NewsList calls Content function to set and display properties or data from object News1, news2 etc,
 function NewsList(){
   return(
     <section >
+      <h5 className='feed'>News feed</h5>
+      {/* Add content anywhere first you'll need to create an object you'll use in your content */}
       <Content heading={News1.heading} img={News1.img} author={News1.author} text={News1.text} link={News1.link}/>
       <Content heading={News2.heading} img={News2.img} author={News2.author} text={News2.text} link={News2.link}/>
       <Content heading={News3.heading} img={News3.img} author={News3.author} text={News3.text} link={News1.link}/>
     </section>
   )
 }
+// These objects hold data that will be used by Content function
 const News1={
   heading: "West Midlands Ambulance Service helps Ukraine cancer patients",
   img:  "https://ichef.bbci.co.uk/news/1024/branded_news/100CC/production/_123704756_fn03fyrxeaalmoq.jpg",
@@ -46,14 +52,16 @@ const News3={
   text: "Supplies are more plentiful now but they are unpredictable and often a jumble of brands. Many places can’t meet the W.H.O.’s recommended dosing schedules.",
   link: "https://www.nytimes.com/2022/03/15/health/covid-vaccines-africa.html"
 }
+// Create an object you want to use in NewsList
 
+//  Content function grabs properties from the NewsList that have heading, img, author, text, and link.
+//  We use these properties inside tags to display them.
 const Content=(props)=>{
   return(
     <section className='content'>
     <h4 className='background'>{props.heading}</h4>
     <img src={props.img} alt="" />
     <p className='background font'>{props.text} <a className='background' href={props.link}>Read More</a></p>
-    <p className='background'></p>
     <h6 className='background'>{props.author}</h6>
   </section>
   )

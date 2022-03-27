@@ -18,9 +18,8 @@
 .content img {
   width: 40%;
 }
-marquee {
-  border-top: 2px solid gold;
-  border-left: 3px solid gold;
-  border-right: 3px solid gold;
-  border-radius: 0.5rem;
+.feed {
+  text-align: center;
+  color: greenyellow;
+  padding-top: 2%;
 }

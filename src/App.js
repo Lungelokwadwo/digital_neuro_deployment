@@ -13,8 +13,10 @@ import GetNeurologist from './pages/GetNeurologist';
 function App() {
   return (
     <>
+          {/* Router allows us to create links and paths to different files under navigation and they help avoid the page reloading */}
           <Router>
             <nav>
+              {/* Here "to" is used to create a direction for path */}
               <Link to="/" className='links brand_title'>Digital Neuro</Link>
               <Link to="/about" className='links small_links'>About</Link>
               <Link to="/chatwithus" className='links small_links'>Chat With Us</Link>
@@ -26,6 +28,7 @@ function App() {
               <Link to="/therapist" className='more-items'>Therapist</Link>
               <Link to="/neurologist" className='more-items'>Neurologist</Link>
             </span>
+            {/* Routes allows Route to give a link path and accept the file inside element where the link will be dirrected */}
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
