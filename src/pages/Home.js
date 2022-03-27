@@ -24,6 +24,9 @@ function NewsList(){
     <section >
       <h5 className='feed'>News feed</h5>
       {/* Add content anywhere first you'll need to create an object you'll use in your content */}
+      <Content heading={News4.heading} img={News4.img} author={News4.author} text={News4.text} link={News4.link}/>
+      <Content heading={News5.heading} img={News5.img} author={News5.author} text={News5.text} link={News5.link}/>
+      <Content heading={News6.heading} img={News6.img} author={News6.author} text={News6.text} link={News6.link}/>
       <Content heading={News1.heading} img={News1.img} author={News1.author} text={News1.text} link={News1.link}/>
       <Content heading={News2.heading} img={News2.img} author={News2.author} text={News2.text} link={News2.link}/>
       <Content heading={News3.heading} img={News3.img} author={News3.author} text={News3.text} link={News1.link}/>
@@ -51,6 +54,27 @@ const News3={
   author: "via New York Times",
   text: "Supplies are more plentiful now but they are unpredictable and often a jumble of brands. Many places can’t meet the W.H.O.’s recommended dosing schedules.",
   link: "https://www.nytimes.com/2022/03/15/health/covid-vaccines-africa.html"
+}
+const News4={
+  heading: "African mask sold for over R67m in France despite protest",
+  img: "https://cdn.24.co.za/files/Cms/General/d/1783/973999820d9f4bf8a25b1a8405f677a6.jpg",
+  author: "via News24",
+  text: "A carved mask from Central Africa, dating from the 19th century, was sold in France for 4.2 million euros (over $67 million) on Saturday, despite Gabonese protesters in the auction house calling for the item’s “‘restitution”.",
+  link: "https://www.news24.com/news24/Africa/News/african-mask-sold-for-over-r67m-in-france-despite-protest-20220327"
+}
+const News5={
+  heading: "Pandemic impact on mental health: A global overview",
+  img: "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/03/covid-19-silent-pandemic-thumb-732x549.jpg?w=304",
+  author: "Katharine Lang",
+  text: "After 2 years of living with COVID-19, the physical toll of the pandemic is evident, in terms of cases, hospitalizations and deaths, but what of the mental effects? Frontline workers and young people have been some of the hardest hit, but no one has escaped the impact of the pandemic.",
+  link: "https://www.medicalnewstoday.com/articles/pandemic-impact-on-mental-health-a-global-overview"
+}
+const News6={
+  heading: "Sleeping with the light on may increase diabetes risk",
+  img: "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/03/bedside-lamp-sleeping-diabetes-header-1024x575.jpg?w=1155&h=1528",
+  author: "Annie Lennon",
+  text: "Light exposure during sleep may increase the risk for heart disease, diabetes, and metabolic syndrome. Gregor Prelog/EyeEm/Getty Images",
+  link: "https://www.medicalnewstoday.com/articles/sleeping-with-the-light-on-may-increase-diabetes-risk"
 }
 // Create an object you want to use in NewsList
 

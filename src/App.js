@@ -10,6 +10,7 @@ import AboutTheBusiness from './pages/AboutTheBusiness';
 import GetTherapist from './pages/GetTherapist';
 import GetNeurologist from './pages/GetNeurologist';
 
+// This whole app is dispalyed on index.html file from public/index.html
 function App() {
   return (
     <>
