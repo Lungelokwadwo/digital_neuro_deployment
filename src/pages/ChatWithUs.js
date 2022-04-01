@@ -21,7 +21,7 @@ const Contact1 = () => {
     return (
         <section className='combined_content'>
             <div className='images'>
-                <img className='split C-img' src="./digital.jpg" alt="Digital Neuro Profile Picture on Facebook/Instagram" />
+                <img className='split C-img' src="https://www.bing.com/th?id=OIP.tyVZFD3lB2qt2hWphSsHxAHaHr&w=245&h=254&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Digital Neuro Profile Picture on Facebook/Instagram" />
                 <Cdetails1 />
             </div>
         </section>
