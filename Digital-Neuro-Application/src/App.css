@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.links {
+  text-decoration: none;
+  margin: 1%;
+  background-color: silver;
+  padding: 1%;
+  border-bottom: 3px solid blue;
+  border-right: 1px solid blue;
+  border-left: 4px solid aliceblue;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.brand_title {
+  font-size: 1.5rem;
+}
+.small_links {
+  font-size: 1.1rem;
+}
+.more {
+  border: 1px solid aliceblue;
+  padding: 0% 3%;
+  color: aliceblue;
+}
+nav {
+  background-color: silver;
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid aliceblue;
+  border-top: 2px solid rgb(235, 228, 187);
+  border-radius: 0.5rem;
+}
+.select {
+  width: 12%;
+  border: 1px solid aliceblue;
+  background-color: silver;
+  border-radius: 0.5rem;
+}
+.more-items {
+  margin: 3px;
+  padding: 2px;
+  border-right: 2px solid rgb(167, 191, 211);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: silver;
+}
+#more-links {
+  padding-left: 1.2%;
+}

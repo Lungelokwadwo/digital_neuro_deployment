@@ -1,0 +1,25 @@
+* {
+  background-color: white;
+}
+/* Styling for Navigation Bar */
+
+/*End of navigation styling*/
+/*Body section styling*/
+.content {
+  background-color: aliceblue;
+  margin: 5%;
+  padding: 5%;
+  border-radius: 1rem;
+  border-left: 5px solid;
+}
+.background {
+  background-color: aliceblue;
+}
+.content img {
+  width: 40%;
+}
+.feed {
+  text-align: center;
+  color: greenyellow;
+  padding-top: 2%;
+}
